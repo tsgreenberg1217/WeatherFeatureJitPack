@@ -6,12 +6,12 @@
     app:startDestination="@id/blankFragment">
         <fragment
             android:id="@+id/fragment_1_2_dest"
-            android:name="com.example.headermodules.fragments.Fragment_1_2"
+            android:name="com.example.weatherapplibrary.fragments.BlankFragment"
             android:label="fragment_1_2"
             tools:layout="@layout/fragment_1_2" />
         <fragment
             android:id="@+id/fragment_1_dest"
-            android:name="com.example.headermodules.fragments.Fragment_1"
+            android:name="com.example.weatherapplibrary.fragments.Fragment_1"
             android:label="fragment_1"
             tools:layout="@layout/fragment_1">
             <action
@@ -20,7 +20,7 @@
         </fragment>
     <fragment
         android:id="@+id/blankFragment"
-        android:name="com.example.headermodules.fragments.BlankFragment"
+        android:name="com.example.weatherapplibrary.fragments.BlankFragment"
         android:label="BlankFragment" >
         <action
             android:id="@+id/action_blankFragment_to_fragment_1_dest"

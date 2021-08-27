@@ -7,21 +7,14 @@
 
     <fragment
         android:id="@+id/fragment_2_dest"
-        android:name="com.example.headermodules.fragments.Fragment_2"
+        android:name="com.example.weatherapplibrary.fragments.Fragment_2"
         android:label="fragment_2"
         tools:layout="@layout/fragment_2">
-        <action
-            android:id="@+id/action_fragment_2_dest_to_fragment_2_2"
-            app:destination="@id/fragment_2_2" />
     </fragment>
-    <fragment
-        android:id="@+id/fragment_2_2"
-        android:name="com.example.headermodules.fragments.Fragment_2_2"
-        android:label="fragment_2_2"
-        tools:layout="@layout/fragment_2_2" />
+
     <fragment
         android:id="@+id/blankFragment2"
-        android:name="com.example.headermodules.fragments.BlankFragment"
+        android:name="com.example.weatherapplibrary.fragments.BlankFragment"
         android:label="BlankFragment">
         <action
             android:id="@+id/action_blankFragment2_to_fragment_2_dest"
